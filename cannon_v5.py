@@ -519,18 +519,6 @@ class ScoreTable:
             screen.blit(score_surf[i], [10, 10 + 30*i])
 
 
-# class Manager:
-#     '''
-#     Class that manages events' handling, ball's motion and collision, target creation, etc.
-#     '''
-
-#     def __init__(self, n_targets=1):
-#         self.balls = []
-#         self.gun = Tank()
-#         self.targets = []
-#         self.score_t = ScoreTable()
-#         self.n_targets = n_targets
-#         self.new_mission()
 class Manager:
     '''
     Class that manages events' handling, ball's motion and collision, target creation, etc.
